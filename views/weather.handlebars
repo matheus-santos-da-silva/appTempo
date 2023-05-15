@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="header">
+        <h1 class="title">Digite uma cidade e veja o clima!</h1>
+        <form action="/city" method="POST">
+            <input class="city-name" type="text" name="city" placeholder="Digite sua cidade">
+            <button type="submit"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+
+        <div class="error">
+            <p>{{error}}</p>
+        </div>
+    </div>
+</div>

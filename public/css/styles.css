@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color: #003785;
+    color: white;
+}
+
+.container, .container-info {
+    display: flex;
+    width: 510px;
+    background-color: #1465bb;
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #0f4b8b;
+}
+
+.header .title{
+    font-size: 30px;
+    padding: 8px;
+}
+
+.header input{
+    padding: 4px;
+    width: 85%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+.header button {
+    width: 33px;
+    height: 32px;
+    background-color: #81c9fa;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+.header button:hover {
+    background-color: #1660c7;
+    cursor: pointer;
+}
+
+.error {
+    padding: 8px;
+    color: darkred;
+    font-weight: bold;
+}
+
+.container-info {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.city {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 12px;
+}
+
+.city span{
+    margin-left: 4px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.weather {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.weather-data {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 30px;
+    padding: 10px;
+}
+
+.aside-1, .aside-2 {
+    display: flex;
+    gap: 6px;
+}
+
+.aside-1 {
+    border-right: 1px solid #CCC;
+    padding-right: 35px;
+}
+
+.restart {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.restart button {
+    font-size: 18px;
+    background-color: #74b3dd;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #0f4b8b;
+    transition: background-color 0.5s;
+}
+
+.restart a {
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.restart button:hover {
+    background-color: #1660c7;
+    cursor: pointer;
+}
